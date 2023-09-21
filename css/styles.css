@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.canvas {
+  background: #fff;
+}
+
+/* Diseño al contenedor de elementos interactivos */
+.options-container {
+  background: #efefef;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Diseño a los botones */
+.btn {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Diseño al contenedor de los inputs */
+.inputs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+}
+
+/* Diseño al contenedor de los botones de Dibujar, Renderizar y Reiniciar */
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Diseño a los botones de Dibujar, Renderizar y Reiniciar */
+.btn-draw,
+.btn-render,
+.btn-reset {
+  margin: 5px 0;
+  font-size: 1.1rem;
+}
+
+/* Diseño al contenedor de los botones de zoom */
+.zoom {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Diseño de las feclas de direcciones */
+.movements {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.btn-up {
+  grid-column: 2;
+}
+
+.btn-left {
+  grid-column: 1;
+}
