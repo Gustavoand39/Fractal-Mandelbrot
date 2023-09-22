@@ -36,6 +36,8 @@ La interfaz gráfica se realizó con Canvas, el cual es un elemento de HTML5 que
 
 Para ejecutar el proyecto solo se debe abrir el archivo **[index.html]** en un navegador web.
 
+Es posible que se deba ejecutar el proyecto en un servidor web local, para ello se puede utilizar la extensión de Visual Studio Code `Live Server`. Esto debido a que el proyecto utiliza módulos de JavaScript y los navegadores no permiten cargar módulos de forma local, es necesario ejecutar el proyecto en un servidor web local.
+
 ### Capturas de pantalla
 
 ![Img1](image-1.png)
