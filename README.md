@@ -1,6 +1,6 @@
 # Fractales
 
-## Descripción del problema:
+## Descripción del problema
 
 Desarrollar un programa que permita renderizar un fractal cumpliendo los siguientes puntos:
 
@@ -31,9 +31,16 @@ La interfaz gráfica se realizó con Canvas, el cual es un elemento de HTML5 que
 1. Se puede ingresar valores para los puntos iniciales y el número de iteraciones.
 2. Se puede hacer zoom en el fractal, para ello se debe presionar alguno de los botones de zoom para aumentar el zoom o disminuirlo.
 3. Se puede mover el fractal, para ello se debe presionar alguno de los botones de movimiento para mover el fractal hacia arriba, abajo, izquierda o derecha.
+4. Se puede renderizar el fractal actual, para ello debe agregar un nuevo valor para la cantidad de iteraciones y presionar el botón de renderizar. Esto permite ver el fractal con más detalle sin que se pierda la posición actual del fractal.
 
-### Ejecución
+## Ejecución
 
-Para ejecutar el proyecto solo se debe abrir el archivo **[index.html]** en un navegador web.
+Para ejecutar el proyecto solo se debe abrir el archivo `index.html` en un navegador web.
 
 Es posible que se deba ejecutar el proyecto en un servidor web local, para ello se puede utilizar la extensión de Visual Studio Code `Live Server`. Esto debido a que el proyecto utiliza módulos de JavaScript y los navegadores no permiten cargar módulos de forma local, es necesario ejecutar el proyecto en un servidor web local.
+
+## Capturas de pantalla
+
+![Fractal inicial](https://github.com/Gustavoand39/Fractal-Mandelbrot/assets/111763968/ee06d3a1-f645-471b-a331-259ec70eecd3)
+
+![Fractal a detalle](https://github.com/Gustavoand39/Fractal-Mandelbrot/assets/111763968/b33c5331-dd22-4452-a872-3fb90161f30d)
